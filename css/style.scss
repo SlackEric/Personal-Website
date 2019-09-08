@@ -1,9 +1,19 @@
 .site-header {
+    position: fixed;
     width: 100%;
     
     &_block {
         display: flex;
-        justify-content: centre;
+        justify-content: center;
+
+        &_name {
+            left: 0px;
+            color: green;
+        }
+
+        ul.breadcrumb li{
+            display: inline;
+        }
     }
 }
 

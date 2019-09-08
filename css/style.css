@@ -1,9 +1,17 @@
 .site-header {
+  position: fixed;
   width: 100%;
 }
 .site-header_block {
   display: flex;
-  justify-content: centre;
+  justify-content: center;
+}
+.site-header_block_name {
+  left: 0px;
+  color: green;
+}
+.site-header_block ul.breadcrumb li {
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */
