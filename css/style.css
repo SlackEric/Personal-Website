@@ -1,0 +1,9 @@
+.site-header {
+  width: 100%;
+}
+.site-header_block {
+  display: flex;
+  justify-content: centre;
+}
+
+/*# sourceMappingURL=style.css.map */
