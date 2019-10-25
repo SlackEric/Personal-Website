@@ -1,16 +1,23 @@
-.site-header {
+.header {
   position: fixed;
   width: 100%;
-}
-.site-header_block {
   display: flex;
   justify-content: center;
 }
-.site-header_block_name {
-  left: 0px;
-  color: green;
+.header__container {
+  width: 800px;
+  display: flex;
 }
-.site-header_block ul.breadcrumb li {
+.header__container__name {
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 0px;
+}
+.header__container__nav {
+  width: 100%;
+  margin-right: 0px;
+}
+.header__container__nav ul.breadcrumb li {
   display: inline;
 }
 
