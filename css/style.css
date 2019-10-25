@@ -1,8 +1,15 @@
+body {
+  margin: 0px;
+}
+
 .header {
   position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: #f5f5f5;
+  margin: 0px;
+  height: 100px;
 }
 .header__container {
   width: 800px;
@@ -19,6 +26,7 @@
 }
 .header__container__nav ul.breadcrumb li {
   display: inline;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
