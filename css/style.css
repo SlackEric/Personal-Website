@@ -12,6 +12,7 @@ body {
   height: 100px;
 }
 .header__container {
+  margin-top: 38px;
   width: 800px;
   display: flex;
 }
@@ -24,9 +25,9 @@ body {
   width: 100%;
   margin-right: 0px;
 }
-.header__container__nav ul.breadcrumb li {
-  display: inline;
-  margin-left: 20px;
+.header__container__nav ul.navigation li {
+  display: inline-block;
+  margin: 0px, 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

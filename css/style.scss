@@ -13,6 +13,7 @@ body {
     
 
     &__container {
+        margin-top: 38px;
         width: 800px;
         display: flex;
 
@@ -26,14 +27,18 @@ body {
             width: 100%;
             margin-right: 0px;
 
-            ul.breadcrumb {
+            ul.navigation {
                 li {
-                    display: inline;
-                    margin-left: 20px;
+                    display: inline-block;
+                    margin:0px, 100px;
                 }
             }
         }
     }
+}
+
+.navigation__items {
+   
 }
 
 .content {
